@@ -149,7 +149,7 @@ You must have the `gcloud` CLI installed on your workstation. See
     --allow tcp:22
   ```
 
-1. Create a bastion VM that you will use to run `bosh-init` and deply the Director:
+1. Create a bastion VM that you will use to run `bosh-init` and deploy the Director:
 
   ```
   gcloud compute instances create bosh-bastion \
